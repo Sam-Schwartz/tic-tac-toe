@@ -54,8 +54,7 @@ class Game {
     (this.board.spaces[2].value!= '' && this.board.spaces[2].value === this.board.spaces[4].value && this.board.spaces[4].value === this.board.spaces[6].value)) {
       $("#result").text("You won!");
     }
-
-    if(this.board.spaces[0].value!='' && this.board.spaces[1].value!='' && this.board.spaces[2].value!='' &&
+    else if(this.board.spaces[0].value!='' && this.board.spaces[1].value!='' && this.board.spaces[2].value!='' &&
     this.board.spaces[3].value!='' && this.board.spaces[4].value!='' && this.board.spaces[5].value!='' &&
     this.board.spaces[6].value!='' && this.board.spaces[7].value!='' && this.board.spaces[8].value!='') {
       $("#result").text("No winner!");
