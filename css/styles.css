@@ -18,13 +18,18 @@ h1 {
   font-family: 'sans-serif';
   text-align: center;
 }
-
 #button_div {
   text-align: center;
   margin-top: 30px;
 }
-
 #board {
   width: 320px;
   margin: auto;
+}
+#result, #info{
+  text-align: center;
+}
+#result{
+  color: red;
+  font-size: 4em;
 }
